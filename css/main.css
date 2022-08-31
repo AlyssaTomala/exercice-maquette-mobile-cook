@@ -18,6 +18,12 @@
 
 html {
   font-size: 16px;
+  max-width: 320px;
+  display: block;
+  scroll-behavior: smooth;
+  margin: auto;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 body {
@@ -44,6 +50,80 @@ video {
 // base rules
 // ==================================== */
 
-header {
+nav {
+  margin: 5px;
+  padding: 20px;
+}
+
+header a {
+  padding: 5px;
+}
+
+img {
+  border: 1px solid lightgrey;
+}
+
+header img {
+  margin-bottom: 10px;
+}
+
+.introduction-title {
+  background-color: red;
+  padding: 2px 10px;
+  border-radius: 50px;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+h1, p, h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+h1 {
+  padding: 10px; 
+}
+
+p {
+font-size: 16px;
+padding: 5px;
+}
+
+h2 {
+  padding: 5px 0 30px;
+}
+
+.week-recipes {
+  background-color: rgba(222, 226, 218, 0.856);
+}
+
+h3 {
+  text-align: left;
+  padding: 30px 0 0 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+hr {
+  border: solid black 1px;
+  margin: 0 25px;
+}
+
+section {
+  background-color: white;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+main a {
+  text-decoration: none;
+}
+
+article {
+  padding: 10px 0px;
 }
